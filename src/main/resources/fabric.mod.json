@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "guiscalemod",
+  "version": "1.0.0",
+  "name": "GUI Scale Customizer",
+  "description": "Adjust GUI Scale fine-tuned from 50% to 200%.",
+  "authors": ["User"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.guiscale.GuiScaleMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
